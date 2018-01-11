@@ -540,59 +540,41 @@ a {
   }
 
 .btn {
-background-color:#2f5572;
-color:#fff;
-text-decoration: none;
-padding: 0.75rem 1.2rem;
-display: inline-block;
+  background-color: #2f5572;
+  color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+
 }
 
 .btn--orange {
-  background-color: #d59541;
-}
+    background-color: #d59541;
+  }
 
 .btn--large {
-
-  padding: 1.1rem 1.9rem;
+    padding: 1.1rem 1.9rem;
   }
 
 @media (min-width: 530px) {
 
 .btn--large {
-    font-size: 1.25rem
+      font-size: 1.25rem
   }
   }
 
 .wrapper {
-
   overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .wrapper--medium {
     max-width: 976px;
-  }
-
-.wrapper .wrapper {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-.wrapper--b-margin {
-    margin-bottom: 1rem;
-
-  }
-
-@media (min-width: 530px) {
-
-.wrapper--b-margin {
-      margin-bottom: 3.875rem
-
-  }
   }
 
 .wrapper--no-padding-until-medium {
@@ -621,14 +603,32 @@ display: inline-block;
   }
   }
 
+.wrapper .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.wrapper--b-margin {
+    margin-bottom: 1rem;
+  }
+
+@media (min-width: 530px) {
+
+.wrapper--b-margin {
+      margin-bottom: 3.875rem
+  }
+  }
+
 .page-section {
   padding: 1.2rem 0;
+
 }
 
 @media (min-width: 800px) {
 
 .page-section {
     padding: 4.5rem 0
+
 }
   }
 
@@ -661,7 +661,6 @@ display: inline-block;
 
 .page-section--testimonials {
     background-color: #e0e6ef;
-
   }
 
 @media (min-width: 1010px) {
@@ -669,7 +668,6 @@ display: inline-block;
 .page-section--testimonials {
       background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
       background-size: cover
-
   }
   }
 
@@ -734,12 +732,12 @@ margin-right: auto;
     display: table;
   }
 
-.row--gutters {
-    margin-right: -65px;
-  }
-
 .row--t-padding {
     padding-top: 80px;
+  }
+
+.row--gutters {
+    margin-right: -65px;
   }
 
 .row--gutters-large {
@@ -759,7 +757,7 @@ margin-right: auto;
   }
 
 .row--gutters-small > div {
-    pattern-right: 45px;
+    padding-right: 45px;
   }
 
 .row__b-margin-until-medium {
@@ -767,18 +765,20 @@ margin-right: auto;
   }
 
 @media (min-width: 800px) {
-  .row__b-margin-until-medium {
-    margin-bottom: 0;
-  }
 
+    .row__b-margin-until-medium {
+      margin-bottom: 0;
+    }
 
     .row__medium-4 {
       float: left;
       width: 33.33%;
     }
+
     .row__medium-4--larger {
       width: 37%;
     }
+
     .row__medium-6 {
       float: left;
       width: 50%;
@@ -788,39 +788,43 @@ margin-right: auto;
       float: left;
       width: 66.66%;
     }
+
     .row__medium-8--smaller {
       width: 63%;
     }
   }
 
 @media (min-width: 1010px) {
+
     .row__b-margin-until-large {
       margin-bottom: 0;
     }
 
+    .row__large-4 {
+      float: left;
+      width: 33.33%;
+    }
 
-      .row__large-4 {
-        float: left;
-        width: 33.33%;
-      }
-      .row__larger-4--larger {
-        width: 37%;
-      }
-      .row__large-6 {
-        float: left;
-        width: 50%;
-      }
+    .row__large-4--larger {
+      width: 37%;
+    }
 
-      .row__large-8 {
-        float: left;
-        width: 66.66%;
-      }
-      .row__large-8--smaller {
-        width: 63%;
-      }
+    .row__large-6 {
+      float: left;
+      width: 50%;
+    }
+
+    .row__large-8 {
+      float: left;
+      width: 66.66%;
+    }
+
+    .row__large-8--smaller {
+      width: 63%;
+    }
   }
 
-/*Begin equal height rules */
+/* Begin Equal Height Rules */
 
 @media (min-width: 800px) {
 
@@ -828,6 +832,7 @@ margin-right: auto;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
+
   }
   }
 
@@ -844,6 +849,7 @@ margin-right: auto;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
+
   }
   }
 
@@ -863,12 +869,11 @@ margin-right: auto;
 @media (min-width: 530px) {
 
 .generic-content-container p {
-        font-size: 1.125rem
+      font-size: 1.125rem
   }
   }
 
 .generic-content-container p a {
-
     font-weight: 700;
   }
 
@@ -876,12 +881,14 @@ margin-right: auto;
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
+
 }
 
 @media (min-width: 530px) {
 
 .section-title {
     font-size: 3.75rem
+
 }
   }
 
@@ -903,12 +910,12 @@ margin-right: auto;
 @media (min-width: 530px) {
 
 .section-title__icon {
-      margin-right: .5rem;
       position: relative;
       top: 8px;
+      margin-right: .5rem;
       margin-left: 0;
       margin-bottom: 0;
-      display:inline-block
+      display: inline-block
   }
   }
 
@@ -1079,4 +1086,26 @@ instead edit gulp/templates/sprite.css */
     width: 34.75px;
     height: 42px;
     background-position: 36.69752421959096% 45.792307692307695%;
+  }
+
+.site-footer {
+  background-color: #2f5572;
+  color: #FFF;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.site-footer__text {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer__text {
+      display: inline;
+      margin-bottom: 0;
+      margin-right: 1.4rem
+  }
   }
