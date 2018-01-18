@@ -18,6 +18,7 @@ class MobileMenu {
 /*    console.log("Hooray - the ican was clicked"); */
     this.menuContent.toggleClass("site-header__menu-content--is-visible");
     this.siteHeader.toggleClass("site-header--is-expanded");
+    this.menuIcon.toggleClass("site-header__menu-icon--close-x");
   }
 
 }
