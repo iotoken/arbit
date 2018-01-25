@@ -96,8 +96,8 @@
 
   }
 
-  /* Begin Equal Height Rules */
-  &--equal-height-at-medium {
+  /* Begin Equal Height Rules - temporary disabled .flexbox prefix on last two selectors*/
+&--equal-height-at-medium {
     @mixin atMedium {
       display: flex;
     }
@@ -109,7 +109,7 @@
 
   }
 
-  &--equal-height-at-large {
+&--equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }
